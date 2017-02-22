@@ -1,5 +1,5 @@
 package com.slotMachine.models;
 
 public enum WinStatus {
-	WIN, LOOSE;
+	WIN, LOSE;
 }

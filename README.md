@@ -42,7 +42,7 @@ Request - http://localhost:8080/roll
 Response -
 
 {
-"winStatus": "LOOSE",
+"winStatus": "LOSE",
 "roller1": "BANANA",
 "roller2": "APPLE",
 "roller3": "APPLE"
@@ -59,7 +59,7 @@ Response -
 
 {
 "userSpin": {
-"winStatus": "LOOSE",
+"winStatus": "LOSE",
 "roller1": "APPLE",
 "roller2": "BANANA",
 "roller3": "CITRUS"

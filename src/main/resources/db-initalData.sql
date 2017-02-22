@@ -5,6 +5,6 @@ INSERT INTO USERS VALUES ('alexander', 'rednaxela@oranges.com', '603451063102217
 INSERT INTO USERS VALUES ('suger', 'syrup@oranges.com', '60345106310221792267675897860362', 1, 3);
 INSERT INTO USERS VALUES ('krankenwagen', 'waggyg@localAandE.com', '60345106310221792267675897860362', 1, 2);
 
-INSERT INTO SPINS VALUES  (RANDOM_UUID(), 'oranges', 'AP.BA.CI', '0', 'usertoken', 'LOOSE');
+INSERT INTO SPINS VALUES  (RANDOM_UUID(), 'oranges', 'AP.BA.CI', '0', 'usertoken', 'LOSE');
 
 

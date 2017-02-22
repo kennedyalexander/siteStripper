@@ -20,7 +20,7 @@ public class Spin implements Serializable {
 		this.rollers.add(RollerState.APPLE);
 		this.rollers.add(RollerState.BANANA);
 		this.rollers.add(RollerState.CITRUS);
-		this.winStatus = WinStatus.LOOSE;
+		this.winStatus = WinStatus.LOSE;
 	}
 	
 	public Spin(List<RollerState> newRoll, WinStatus winStatus){
@@ -79,7 +79,7 @@ public class Spin implements Serializable {
 		if (win.equals("WIN")){
 			return WinStatus.WIN;
 		} else {
-			return WinStatus.LOOSE;
+			return WinStatus.LOSE;
 		}
 		}
 

@@ -52,7 +52,7 @@ public class RollServiceImpl implements RollService {
 		if (map.size() == 1) {
 			return new Spin(freshRolls, WinStatus.WIN);
 		} else {
-			return new Spin(freshRolls, WinStatus.LOOSE);
+			return new Spin(freshRolls, WinStatus.LOSE);
 		}
 	}
 
