@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.slotMachine</groupId>
-	<artifactId>slot-machine</artifactId>
+	<groupId>com.siteStriper</groupId>
+	<artifactId>site-Stripper</artifactId>
 	<version>0.1.1</version>
 
 	<properties>
@@ -40,6 +40,14 @@
 			<artifactId>commons-io</artifactId>
 			<version>1.3.2</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.10.2</version>
+</dependency>
+		
 
 
 		<!-- Database depedencies -->

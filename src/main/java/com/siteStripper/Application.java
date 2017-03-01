@@ -1,4 +1,4 @@
-package com.slotMachine;
+package com.siteStripper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
